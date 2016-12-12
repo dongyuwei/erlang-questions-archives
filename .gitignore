@@ -15,3 +15,5 @@ _build
 .idea
 
 .DS_Store
+
+archives/*.txt
