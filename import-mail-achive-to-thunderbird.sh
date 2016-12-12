@@ -1,3 +1,6 @@
+# erlc archive_downloader
+# erl -s archive_downloader download_all -run init stop -noshell
+
 cd ./archives
 gunzip -f *.gz
 for i in $(ls *.txt); do cat $i >> erlang-questions-archives; done
